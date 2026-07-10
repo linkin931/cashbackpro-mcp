@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.cashbackpro/cashbackpro",
+  "description": "AliExpress cashback for AI assistants: search products, estimate cashback, get personal links.",
+  "version": "0.2.0",
+  "websiteUrl": "https://cashbackpro.org/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cashbackpro.org/api/mcp"
+    }
+  ]
+}
