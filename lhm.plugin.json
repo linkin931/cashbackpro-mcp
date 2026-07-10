@@ -1,0 +1,14 @@
+{
+  "identifier": "linkin931-cashbackpro-mcp",
+  "name": "CashbackPro MCP Server",
+  "version": "1.0.0",
+  "description": "AliExpress cashback for AI assistants: search products, estimate cashback, and generate personal cashback links. Remote server (Streamable HTTP) at https://cashbackpro.org/api/mcp; works anonymously too (affiliate links, no cashback - disclosed to the user).",
+  "homepage": "https://cashbackpro.org/mcp",
+  "cloudEndpoint": "https://cashbackpro.org/api/mcp",
+  "tools": [
+    { "name": "search_products", "description": "Search AliExpress products (quality-filtered results)" },
+    { "name": "get_product_details", "description": "Product details plus estimated cashback" },
+    { "name": "calculate_cashback", "description": "Estimate cashback for an amount by user level" },
+    { "name": "get_cashback_link", "description": "Generate an affiliate link; with a connected account the purchase earns the user cashback" }
+  ]
+}
